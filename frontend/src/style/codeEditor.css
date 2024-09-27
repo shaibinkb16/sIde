@@ -1,0 +1,5 @@
+.monaco-editor-container {
+    display: block; /* Prevent flex/grid layouts from centering the text */
+    position: relative; /* Ensure the editor respects the container size */
+  }
+  

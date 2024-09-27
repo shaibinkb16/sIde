@@ -1,0 +1,41 @@
+.folder-children {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    overflow: hidden;
+  }
+  
+  .folder-item {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .folder-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .breadcrumb-part {
+    font-size: 14px;
+  }
+  
+  .separator {
+    margin: 0 5px;
+  }
+  
+  .file-preview {
+    margin-top: 20px;
+  }
+  
+  .file-preview-image {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  .search-bar {
+    margin-bottom: 10px;
+  }
+  
